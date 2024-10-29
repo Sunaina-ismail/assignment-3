@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #bdd4fa;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+  padding: 10px 40px 10px 40px; 
+  background-color: #3262a5;
+  color: #f1eaea;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:x-large;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.navitems{
+  display: flex;
+  justify-content: space-between;
+}
+
+li{
+  margin-right:2rem
+}
+
+li:hover{
+  background-color: white;
+  border-radius: 5px;
+color: black;
+}
+
+#foot{
+  background-color: rgb(33, 33, 37);
+  margin-top: 1rem;
+  padding: 1rem;
+color:white;
+display:flex;
+margin-top: 13rem;
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-size:larger;
+}
+ #home{
+  color:#2b1d7b;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 3rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+ }
+
+ #about{
+  color: #2b1d7b;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 3rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+ }
+
+ #contact{
+  color: #2b1d7b;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 3rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+ }
